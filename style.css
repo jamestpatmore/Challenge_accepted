@@ -32,12 +32,9 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-    
-}
 
 .header nav ul li {
+    list-style-type: none;
     display: inline-block;
     margin-left: 25px;
 }
@@ -49,7 +46,9 @@ a {
 
 p {
     font-size: 16px;
+    margin-top: 5%;
 }
+
 
 .hero {
     height: 800px;
@@ -59,50 +58,15 @@ p {
     background-size: cover;
     background-position: center;
     margin-left: 20px;
+    margin-right: 750px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     
-}
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.aside {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.aside img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
 }
 
 
@@ -115,16 +79,56 @@ p {
     color: #ffffff;
 }
 
+.h2 {
+    margin-bottom: 20px;
+    font-size: 76px;
+}
+
 
 .article img {
     max-height: 200px;
 }
 
-
-.h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-information {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.benefit-information img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
 
 .footer {
     padding: 30px;
@@ -132,6 +136,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 
 .footer h4 {
     font-size: 20px;
