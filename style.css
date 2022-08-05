@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/*didnt change the values or the amount of classes since they needed there unique blueprints
+but changed the initial names so that it would be semantically correct and accesible within the files */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,6 +26,7 @@ body {
     color: rgb(219, 219, 125);
 }
 
+/* i changed the CSS name to nav to indicate the diference of semantics on the HTML */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,7 +35,7 @@ body {
     font-size: 20px;
 }
 
-
+/* Like above, i changed the name to match the semantics */
 .header nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -49,16 +52,17 @@ p {
     margin-top: 5%;
 }
 
-
+/* I didn't want to take this image into the html and kept it as a link because 
+i believe this image doesn't serve any knowledge for the webpage not needing an alt tag. However,
+i did add a margin left: 20px for so that it can line up with the content which was just a personal touch */
 .hero {
-    height: 800px;
+    height: 900px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
     margin-left: 20px;
-    margin-right: 750px;
 }
 
 
@@ -69,7 +73,8 @@ p {
     
 }
 
-
+/*Like above, i changed the name of this to match the semantics, and condesnsed all of the classes
+that had the same properties under this one class */
 .article {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,7 +89,8 @@ p {
     font-size: 76px;
 }
 
-
+/* There didn't need to be an abundance of image classes when they all had the same properties
+so I semanticallty defined this to match with the article class and assigned it for all images within */
 .article img {
     max-height: 200px;
 }
@@ -99,7 +105,7 @@ p {
     margin-left: 25px;
 }
 
-
+/*There was three classes again with the same properties so condensed them all into this class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -111,24 +117,23 @@ p {
     background-color: #2589bd;
 }
 
+/*same situation for the ones above this had seperate classes for no reason so I condensed it to save some space */
 .benefit-information {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
 
 h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-
+/*changged this to semantically match and condensed it since the other classes had the same values */
 .benefit-information img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
 
 .footer {
     padding: 30px;
@@ -137,7 +142,7 @@ h3 {
     text-align: center;
 }
 
-
+/*changed the tag to h4 so it could align with the html/css */
 .footer h4 {
     font-size: 20px;
 }
